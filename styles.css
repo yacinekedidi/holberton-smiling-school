@@ -1,0 +1,70 @@
+html {
+  overflow-x: hidden;
+}
+
+.hero {
+  min-height: 200vh;
+  /* background: url("assets/images/pic_1.jpg") no-repeat center center; */
+  background: url("assets/images/pic_1.jpg") center/cover no-repeat;
+
+  /* background-size: cover; */
+}
+
+.btn {
+  filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
+  background-color: #c271ff;
+  border-color: #c271ff;
+}
+
+.lead span {
+  color: #c271ff;
+}
+
+@media (max-width: 767px) {
+  nav {
+    margin-bottom: 20rem;
+  }
+
+  .hero__action {
+    margin-bottom: 18rem;
+  }
+}
+
+.quotes {
+  min-height: 40vh;
+  background-color: #c271ff;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #c271ff;
+  width: 5%;
+  height: 10%;
+  top: 50%;
+  opacity: 1;
+}
+
+.quotes__item {
+  padding: 2rem;
+  /* margin-right: 4rem;  */
+}
+
+.tutorials {
+  /* min-height: 20vh; */
+}
+
+.position-absolute {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.row-cols-1 {
+  /* outline: solid; */
+}
+
+.membership,
+.footer {
+  background-color: #071629;
+  min-height: 20vh;
+}
