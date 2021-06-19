@@ -16,22 +16,37 @@ body {
   background: url("assets/images/pic_2.jpg") center/cover no-repeat;
 }
 
+.hero__courses {
+  /* min-height: 30vh; */
+  background: url("assets/images/pic_3.jpg") center/cover no-repeat;
+}
+
 .btn {
   filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
   background-color: #c271ff;
   border-color: #c271ff;
 }
 
-.lead span {
+.dropdown .btn {
+  filter: none;
+}
+
+.lead span,
+.hero__courses span {
   color: #c271ff;
 }
 
+.hero__courses p {
+  font-family: "Coiny", cursive;
+  font-size: 1.5rem;
+}
+
 @media (max-width: 767px) {
-  nav {
+  .hero nav {
     margin-bottom: 20rem;
   }
 
-  .hero__action {
+  .hero .hero__action {
     margin-bottom: 18rem;
   }
 }
@@ -74,4 +89,35 @@ body {
 .faq .col p {
   opacity: 0.5;
   font-family: sans-serif;
+}
+
+.filters {
+  min-height: 20vh;
+  background-color: #c271ff;
+}
+
+input[type="search"],
+select {
+  background-color: #979797;
+  opacity: 0.25;
+  border-radius: 3px 3px 0px 0px;
+}
+
+/* input:focus ~ .holberton_school-icon-search_1 {
+  display: none;
+} */
+
+input[type="search"]::placeholder {
+  padding-left: 2rem;
+  color: white;
+}
+.holberton_school-icon-search_1 {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 20%;
+  left: 2%;
+}
+
+.filters span {
+  color: white;
 }
