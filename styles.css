@@ -2,12 +2,18 @@ html {
   overflow-x: hidden;
 }
 
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
 .hero {
   min-height: 200vh;
-  /* background: url("assets/images/pic_1.jpg") no-repeat center center; */
   background: url("assets/images/pic_1.jpg") center/cover no-repeat;
+}
 
-  /* background-size: cover; */
+.hero__pricing {
+  min-height: 120vh;
+  background: url("assets/images/pic_2.jpg") center/cover no-repeat;
 }
 
 .btn {
@@ -46,11 +52,6 @@ html {
 
 .quotes__item {
   padding: 2rem;
-  /* margin-right: 4rem;  */
-}
-
-.tutorials {
-  /* min-height: 20vh; */
 }
 
 .position-absolute {
@@ -59,12 +60,18 @@ html {
   transform: translate(-50%, -50%);
 }
 
-.row-cols-1 {
-  /* outline: solid; */
-}
-
 .membership,
 .footer {
   background-color: #071629;
   min-height: 20vh;
+}
+
+.holberton_school-icon-check {
+  color: #82d24f;
+  font-size: 2rem;
+}
+
+.faq .col p {
+  opacity: 0.5;
+  font-family: sans-serif;
 }
